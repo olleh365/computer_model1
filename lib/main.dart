@@ -20,11 +20,11 @@ class MyApp extends StatelessWidget {
              mainAxisAlignment: MainAxisAlignment.center,
              children: [
                Text(
-                 controller.computer.value.name.value,
+                 controller.computer.value.name,
                ),
                ElevatedButton(
                  style: ElevatedButton.styleFrom(
-                   backgroundColor: controller.computer.value.color.value,
+                   backgroundColor: controller.computer.value.color,
                  ),
                    onPressed: (){
                      controller.switchingComputer();
